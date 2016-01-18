@@ -14,7 +14,7 @@
 		AF487D881BCBB7010081F9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF487D861BCBB7010081F9FC /* LaunchScreen.storyboard */; };
 		AF487D931BCBB7010081F9FC /* PullToRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF487D921BCBB7010081F9FC /* PullToRefreshTests.swift */; };
 		AF487D9E1BCBB7010081F9FC /* PullToRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF487D9D1BCBB7010081F9FC /* PullToRefreshUITests.swift */; };
-		AF487DAC1BCBBB950081F9FC /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF487DAB1BCBBB950081F9FC /* RefreshContents.xib */; settings = {ASSET_TAGS = (); }; };
+		AF487DAC1BCBBB950081F9FC /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF487DAB1BCBBB950081F9FC /* RefreshContents.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -404,7 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PullToRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.PullToRefresh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atour.PullToRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -415,7 +415,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PullToRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vvusu.PullToRefresh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atour.PullToRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -487,6 +487,7 @@
 				AF487DA41BCBB7010081F9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF487DA51BCBB7010081F9FC /* Build configuration list for PBXNativeTarget "PullToRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +496,7 @@
 				AF487DA71BCBB7010081F9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF487DA81BCBB7010081F9FC /* Build configuration list for PBXNativeTarget "PullToRefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +505,7 @@
 				AF487DAA1BCBB7010081F9FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
